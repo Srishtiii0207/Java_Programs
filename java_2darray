@@ -1,0 +1,28 @@
+package restart_;
+import java.util.Scanner;
+public class array_ {
+public static void main(String args[]) {
+	Scanner sc= new Scanner(System.in);
+	int arr[][]=new int[2][2];
+	
+	System.out.print("enter first index: ");
+	arr[0][0]= sc.nextInt();
+	
+	System.out.print("enter second index: ");
+	arr[0][1]=sc.nextInt();
+	
+	System.out.print("enter third index: ");
+	int c=sc.nextInt();
+	
+	System.out.print("enter fourth index: ");
+	int d=sc.nextInt();
+	
+	for (int row=0;row<2;row++) {
+	for (int col=0;col<2;col++) {
+		System.out.print("\t"+ arr[row][col]);
+	}
+	}
+    
+}
+			
+}
